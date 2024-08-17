@@ -15,6 +15,7 @@
 		B504E1882C70545F00E150B3 /* PKUP_SWFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504E1872C70545F00E150B3 /* PKUP_SWFTTests.swift */; };
 		B504E1922C70545F00E150B3 /* PKUP_SWFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504E1912C70545F00E150B3 /* PKUP_SWFTUITests.swift */; };
 		B504E1942C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504E1932C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift */; };
+		B53F0F082C70683E002F8B00 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F072C70683E002F8B00 /* Achievement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B504E18D2C70545F00E150B3 /* PKUP-SWFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PKUP-SWFTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B504E1912C70545F00E150B3 /* PKUP_SWFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUP_SWFTUITests.swift; sourceTree = "<group>"; };
 		B504E1932C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUP_SWFTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B53F0F072C70683E002F8B00 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				B504E1782C70545D00E150B3 /* Item.swift */,
 				B504E17A2C70545E00E150B3 /* Assets.xcassets */,
 				B504E17C2C70545E00E150B3 /* Preview Content */,
+				B53F0F072C70683E002F8B00 /* Achievement.swift */,
 			);
 			path = "PKUP-SWFT";
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B504E1772C70545D00E150B3 /* ContentView.swift in Sources */,
+				B53F0F082C70683E002F8B00 /* Achievement.swift in Sources */,
 				B504E1792C70545D00E150B3 /* Item.swift in Sources */,
 				B504E1752C70545D00E150B3 /* PKUP_SWFTApp.swift in Sources */,
 			);
