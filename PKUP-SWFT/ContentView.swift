@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  PKUP-SWFT
 //
-//  Created by Ashwin SK and Aryan Val Valluri on 17/08/24.
+//  Created by Ashwin "Shwinnie" SK and Aryan "Val The Primordial" Valluri on 17/08/24.
 //
 
 import SwiftUI
