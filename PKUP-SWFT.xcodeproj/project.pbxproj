@@ -17,6 +17,16 @@
 		B504E1942C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B504E1932C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift */; };
 		B53F0F082C70683E002F8B00 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F072C70683E002F8B00 /* Achievement.swift */; };
 		B53F0F0A2C7068EC002F8B00 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F092C7068EC002F8B00 /* ImagePicker.swift */; };
+		B53F0F0C2C706985002F8B00 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F0B2C706985002F8B00 /* AuthenticationView.swift */; };
+		B53F0F0E2C706997002F8B00 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F0D2C706997002F8B00 /* FeedView.swift */; };
+		B53F0F102C7069AA002F8B00 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F0F2C7069AA002F8B00 /* ProfileView.swift */; };
+		B53F0F122C7069BE002F8B00 /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F112C7069BE002F8B00 /* UploadView.swift */; };
+		B53F0F142C7069D8002F8B00 /* EnhancementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F132C7069D8002F8B00 /* EnhancementView.swift */; };
+		B53F0F162C7069F5002F8B00 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F152C7069F5002F8B00 /* EditorView.swift */; };
+		B53F0F182C706A0E002F8B00 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F172C706A0E002F8B00 /* AchievementView.swift */; };
+		B53F0F1A2C706A5E002F8B00 /* AchievementsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F192C706A5E002F8B00 /* AchievementsPageView.swift */; };
+		B53F0F1C2C706A79002F8B00 /* AchievementDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F0F1B2C706A79002F8B00 /* AchievementDetailsView.swift */; };
+		B53F0F1E2C706AA1002F8B00 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B53F0F1D2C706AA1002F8B00 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +60,16 @@
 		B504E1932C70545F00E150B3 /* PKUP_SWFTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PKUP_SWFTUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B53F0F072C70683E002F8B00 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
 		B53F0F092C7068EC002F8B00 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B53F0F0B2C706985002F8B00 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		B53F0F0D2C706997002F8B00 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		B53F0F0F2C7069AA002F8B00 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B53F0F112C7069BE002F8B00 /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		B53F0F132C7069D8002F8B00 /* EnhancementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancementView.swift; sourceTree = "<group>"; };
+		B53F0F152C7069F5002F8B00 /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		B53F0F172C706A0E002F8B00 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		B53F0F192C706A5E002F8B00 /* AchievementsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsPageView.swift; sourceTree = "<group>"; };
+		B53F0F1B2C706A79002F8B00 /* AchievementDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailsView.swift; sourceTree = "<group>"; };
+		B53F0F1D2C706AA1002F8B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,16 @@
 				B504E17C2C70545E00E150B3 /* Preview Content */,
 				B53F0F072C70683E002F8B00 /* Achievement.swift */,
 				B53F0F092C7068EC002F8B00 /* ImagePicker.swift */,
+				B53F0F0B2C706985002F8B00 /* AuthenticationView.swift */,
+				B53F0F0D2C706997002F8B00 /* FeedView.swift */,
+				B53F0F0F2C7069AA002F8B00 /* ProfileView.swift */,
+				B53F0F112C7069BE002F8B00 /* UploadView.swift */,
+				B53F0F132C7069D8002F8B00 /* EnhancementView.swift */,
+				B53F0F152C7069F5002F8B00 /* EditorView.swift */,
+				B53F0F172C706A0E002F8B00 /* AchievementView.swift */,
+				B53F0F192C706A5E002F8B00 /* AchievementsPageView.swift */,
+				B53F0F1B2C706A79002F8B00 /* AchievementDetailsView.swift */,
+				B53F0F1D2C706AA1002F8B00 /* Info.plist */,
 			);
 			path = "PKUP-SWFT";
 			sourceTree = "<group>";
@@ -242,6 +272,7 @@
 			files = (
 				B504E17E2C70545E00E150B3 /* Preview Assets.xcassets in Resources */,
 				B504E17B2C70545E00E150B3 /* Assets.xcassets in Resources */,
+				B53F0F1E2C706AA1002F8B00 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,11 +297,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53F0F1A2C706A5E002F8B00 /* AchievementsPageView.swift in Sources */,
+				B53F0F122C7069BE002F8B00 /* UploadView.swift in Sources */,
+				B53F0F102C7069AA002F8B00 /* ProfileView.swift in Sources */,
+				B53F0F1C2C706A79002F8B00 /* AchievementDetailsView.swift in Sources */,
+				B53F0F162C7069F5002F8B00 /* EditorView.swift in Sources */,
+				B53F0F0E2C706997002F8B00 /* FeedView.swift in Sources */,
+				B53F0F182C706A0E002F8B00 /* AchievementView.swift in Sources */,
 				B504E1772C70545D00E150B3 /* ContentView.swift in Sources */,
 				B53F0F082C70683E002F8B00 /* Achievement.swift in Sources */,
+				B53F0F0C2C706985002F8B00 /* AuthenticationView.swift in Sources */,
 				B53F0F0A2C7068EC002F8B00 /* ImagePicker.swift in Sources */,
 				B504E1792C70545D00E150B3 /* Item.swift in Sources */,
 				B504E1752C70545D00E150B3 /* PKUP_SWFTApp.swift in Sources */,
+				B53F0F142C7069D8002F8B00 /* EnhancementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +477,7 @@
 				DEVELOPMENT_TEAM = 5KB37B83FD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PKUP-SWFT/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +507,7 @@
 				DEVELOPMENT_TEAM = 5KB37B83FD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PKUP-SWFT/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

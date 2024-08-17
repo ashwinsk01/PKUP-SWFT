@@ -1,62 +1,44 @@
 //
 //  ContentView.swift
-//  PKUP-SWFT
+//  Pikkup
 //
-//  Created by Ashwin "Shwinnie" SK and Aryan "Val The Primordial" Valluri on 17/08/24.
-// We like Apples!!
+//  Created by Aryan Valluri on 8/15/24.
 //
 
 import SwiftUI
-import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
-        }
-    }
+        NavigationStack {
+            ZStack {
+                Color.pink.edgesIgnoringSafeArea(.all) // Background color for all platforms
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
+                VStack {
+                    Spacer()
+                    Image("logoCutout") // Ensure this is the correct logo file name
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth: .infinity) // This will maintain the logo within the view's constr aints
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+                    Spacer()
+
+                    NavigationLink(destination: AuthenticationView()) {
+                        Image("playButtonImageWhite")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 190, height: 190)
+                    }
+                    Spacer()
+                }
             }
         }
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+#if DEBUG
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
+#endif
